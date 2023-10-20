@@ -1,0 +1,23 @@
+<html>
+<head>
+    <title>Register Page</title>
+</head>
+<body>
+<center>
+    <h1>Register</h1>
+    <form method="POST" action="/register">
+        <label for="username">Username:</label>
+        <input type="text" id="username" name="username"  required><br><br>
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password"  required><br><br>
+        <label for="confirm password">Confirm Password:</label>
+        <input type="password" id="confirm password" name="confirm password"  required><br><br>
+        <label for = "email">Email:</label>
+        <input type = "text" id ="email" name = "email"  required><br><br>
+        <input type="submit" value="Register">
+    </form>
+    <p>{{ message }}</p>
+<h3>If you have completed the registeration, <a href="/login">click here</a></h3
+</center>
+</body>
+</html>
